@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 were both strings, causing the + operation to concatenate the two strings rather than addition.
+2. I would fix it by first converting num1 and num2 into numbers using the Number() function. Then I will check whether the values are NaN in order to verify that the two inputs were indeed numbers. Then, the sum of the two will be stored as the result.

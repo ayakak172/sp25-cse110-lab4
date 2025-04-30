@@ -29,7 +29,9 @@
     E. false
     F. true
 15. The == operator compares the two values with type conversions, while the === operator is a strict comparison, meaning that there the values are compared without type conversions.
+16. JavaScript file
 17. The result will be [2, 4, 6] because the for loop iterates over each entry of the array that is given as a parameter. In each loop, the return value of the doSomething function is added to the newArr array. The doSomething function returns the array value multiplied by 2, so each entry in newArr is double the entry in array. Thus, the result will be [2, 4, 6].
+18. JavaScript file
 19. The output will be the following because setTimeout does not pause code execution. This means that while 2 is waiting to be printed, the other 2 lines run, causing 3 and 4 to be printed.
     1
     3
